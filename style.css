@@ -4,3 +4,12 @@ header{
   width:100%;
   position: fixed;
 }
+.swiper-container {
+  /*width: 75%;*/
+  /*height: 100vh;*/
+  position: relative;
+  margin: 0 auto;
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+}
