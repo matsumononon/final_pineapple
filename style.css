@@ -31,3 +31,14 @@ header{
   background-color: #46BDCA;
 }
 /*ここまでヘッダー*/
+
+.swiper-container {
+  /*width: 75%;*/
+  /*height: 100vh;*/
+  position: relative;
+  margin: 0 auto;
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+}
+
