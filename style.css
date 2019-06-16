@@ -1,6 +1,31 @@
 header{
   background-color: #fff;
-  height:80px;
+  height:60px;
   width:100%;
   position: fixed;
+  margin: auto 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.toyotalogo{
+  height:50px;
+  width: auto;
+  margin-right:auto; 
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.menu-box{
+  display: flex;
+  height: 60px;
+  
+}
+.hd-menu{
+  font-size:17px;
+  margin:auto 25px; 
+}
+.hd-btn{
+  width: 230px;
+  color: #fff;
+  font-size: 17px;
+  background-color: #46BDCA;
 }
