@@ -396,3 +396,27 @@ label[for="tab2_4"]:hover{
 .event{
   
 }
+
+.user-btn{
+  margin-right: 50%;
+}
+.comment-box{
+ width: 570px;
+ border: solid 1px black;
+ border-radius: 15px;
+ margin-left: 350px;
+ margin-bottom: 30px;
+}
+
+.parsonal{
+  margin: 17px 0 10px 3%;
+
+}
+.parsonal-text{
+  margin: 25px;
+  margin-left: 40px;
+}
+.txt-car-class{
+  font-size: 20px;
+  margin-right: 15px;
+}
