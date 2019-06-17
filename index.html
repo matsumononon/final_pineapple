@@ -15,11 +15,13 @@
 
 <!-- ここからヘッダー-->
   <header>
-    <img class="toyotalogo"src="images/toyota_logo.png" alt="">
+    <a href="#top" class="toyotalogo">
+    <img src="images/toyota_logo.png" alt="">
+    </a>
    <div class="menu-box">
-    <span class="hd-menu">カスタム</span>
-    <span class="hd-menu">エコ運転</span>
-    <span class="hd-menu">運転に+α</span>
+    <span class="hd-menu"><a href="#cstm">カスタム</a></span>
+    <span class="hd-menu"><a href="#eco">エコ運転</a></span>
+    <span class="hd-menu"><a href="#plus">運転に+α</a></span>
     <button class="hd-btn">試乗予約</button>
     </div> 
   </header>
@@ -32,7 +34,7 @@
 <div>
    
 
-  <div id="slideshow">
+  <div id="slideshow top" >
     <!-- Slider main container -->
     <div class="swiper-container">
         <!-- Additional required wrapper -->
@@ -45,14 +47,14 @@
             
         </div>
         <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
+        <div class="swiper-pagination swiper-button-white"></div>
     
         <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev swiper-button-white"></div>
+        <div class="swiper-button-next swiper-button-white"></div>
     
         <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar"></div>
+        <div class="swiper-scrollbar swiper-button-white"></div>
     </div>
   
   </div>
@@ -130,10 +132,11 @@
   <img class="point"src="images/point_3.png" alt="">
 </div>
 
-<img class="line-car"src="images/line_car.png" alt="">
+<img  class="line-car"src="images/line_car.png" alt="">
 
 <!--カスタムここから-->
-<div class="topic">
+<div id="cstm"></div>
+<div class="topic" >
 <div class="topic-comment">あなた色にカスタム</div>
 <div class="sub-comment">カラーリング&パッケージ</div>
 <div class="border"></div>
@@ -223,12 +226,13 @@
       <div>
         研ぎすまされたスポーティーな出で立ち。カーボン調デカールをご用意。
       </div>
-      <p class="more">詳しく見る</p>
+      <p class="more" >詳しく見る</p>
   </div>
 </div>
 <!--カスタムここまで-->
 <!--エコ運転-->
-<div class="ecodrive">
+<div id="eco"></div>
+<div class="ecodrive" >
 <div class="topic-comment2">エコ運転アシストで楽しく</div>
 <img class="line-car2"src="images/line_car.png" alt="">
 </div>
@@ -276,7 +280,8 @@
   <img src="images/shop5000.png" alt="">
 </div>
 <!--もっと"キモチいい"走りへ-->
-<div class="ecodrive">
+<div id="plus"></div>
+<div class="ecodrive" >
 <div class="topic-comment2">もっと”キモチいい”走りへ</div>
 <img class="line-car2"src="images/line_car.png" alt="">
 </div>
@@ -338,6 +343,8 @@
 <div class="topic-comment">グレード別価格</div>
 <div class="border3"></div>
 </div>
+
+<div class="grd-container">
 <div class="grd-box">
   <img src="images/grd_l_2.jpg" alt="">
   <span class="grd-price">¥1,785,240~</span>
@@ -398,37 +405,40 @@
     <img class="down" src="images/down.png" alt="">
     </span>
 </div>
+</div>
 <!--  グレード別価格ここまで-->
 <!--    オーナーの声ここから-->
 <div class="topic">
   <div class="topic-comment">オーナーの声</div>
   <div class="border"></div>
 
+<div class="user-btn-box">
 <button class="user-btn">
   グレード別に表示
 </button>
+  </div>
 
   <div class="comment-box">
-  <p class="parsonal"><span class="txt-car-class">L</span>男性 44歳 三重県 2018.05</p>
+  <p class="parsonal"><strong><span class="txt-car-class">L</span>男性 44歳 三重県  2018.05</strong></p>
   <p class="parsonal-text">
       毎日の車通勤で、燃費と安全性を考えて、軽自動車を検討していたが、トヨタの安全整備が整っていて、ガソリンとハイブリットの両立で、走行距離が長い車通勤に適しています。
       エコドライブにして運転すると、燃費を考えて運転できるため、ガソリンの消費量が少なくて済み助かっています。
   </p>
   </div>
   <div class="comment-box">
-      <p class="parsonal"><span class="txt-car-class">S</span>女性 18才 学生 愛知県 2017.07</p>
+      <p class="parsonal"><strong><span class="txt-car-class">S</span>女性 18才 学生 愛知県  2017.07</strong></p>
       <p class="parsonal-text">
           燃費が良くて静かで運転がもっと好きになりました。これからも大事に乗っていきたいです！
       </p>
   </div>
   <div class="comment-box">
-      <p class="parsonal"><span class="txt-car-class">L</span>女性27才 静岡 2016.07</p>
+      <p class="parsonal"><strong><span class="txt-car-class">L</span>女性27才 静岡  2016.07</strong></p>
       <p class="parsonal-text">
           外装、内装、とても良く高級感がある造り。スタイリング重視してたのでとても気に入り購入しました。
       </p>
   </div>
   <div class="comment-box">
-      <p class="parsonal"><span class="txt-car-class">Crossover</span>男性 24才 愛知県 2017.05</p>
+      <p class="parsonal"><strong><span class="txt-car-class">Crossover</span>男性 24才 愛知県  2017.05</strong></p>
       <p class="parsonal-text">
           カー用品店などで車種専用品が多くあり、カスタマイズがしやすい。
       </p>
@@ -436,16 +446,52 @@
 </div>
 <!--    オーナーの声ここまで-->
 <!--    AQUAの写真-->
-
+<img src="images/btm-aqua.png" alt="" class="btm-img">
 <!--AQUAの写真ここまで-->
 <!--    試乗のポイントここから-->
-
+<div class="topic">
+<div class="topic-comment">試乗のポイント</div>
+<div class="border"></div>
+</div>
+<div class="sijou-container">
+<div class="sijou-box">
+ <img src="images/point1.png" alt="" class="tpc-num">
+  <p class="sijou-txt"><strong>自由自在！自分なりにAQUAをコーディネート出来る！</strong></p>
+  <p>ボディーカラーをはじめシートなど様々なカスタマイズをご用意しています。
+あなただけのオリジナルのAQUAで夢のカーライフを！
+</p>
+</div>
+<div class="sijou-box">
+ <img src="images/point2.png" alt="" class="tpc-num">
+  <p class="sijou-txt"><strong>低燃費・エンジン＋モーターの力を走行中に実感！</strong></p>
+  <p>低燃費はあなたのドライブ気分を高めてくれますよ。<br>
+AQUAはエコ運転をアシスト！ゲーム気分で低燃費を味わってみてください。
+</p>
+</div>
+<div class="sijou-box">
+ <img src="images/point3.png" alt="" class="tpc-num">
+  <p class="sijou-txt"><strong>お財布にも環境にもダブルで優しいAQUAの魅力を体感！</strong></p>
+  <p>エンジン音静かさ・座りごごち・アクアの感触を全身で感じて下さい。<br>
+試乗したらきっとあなたもハイブリッドの良さをシェアしたくなります。</p>
+</div>
+</div>
 <!--  試乗のポイントここまで-->
 <!--    試乗の流れここから（ボタン含む）-->
-
+<div class="topic">
+<div class="topic-comment">試乗の流れ</div>
+<div class="border"></div>
+</div>
+<div class="sijou-flow">
+  <img src="images/sijou-flow.png" alt="" class="flow-img">
+</div>
+ <div class="btn-mg">
+  <button class="hd-btn2">試乗予約する</button>
+  </div>
 <!--    試乗の流れここまで-->
 <!--    フッターここから-->
-     
+   <div class="footer">
+     <img src="images/footer.jpg" alt="">
+   </div>
     
 
 
