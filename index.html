@@ -24,7 +24,7 @@
   </header>
 <!--  ここまでヘッダー-->
 <!--ここからメインビュー-->
-<div>
+<div id=mainview>
   <div id="slideshow">
     <!-- Slider main container -->
     <div class="swiper-container">
@@ -48,10 +48,49 @@
         <!-- If we need scrollbar -->
         <div class="swiper-scrollbar"></div>
     </div>
-  </section>
   </div>
 </div>
 <!--  ここまでメインビュー-->
+
+
+
+<div class="cp_tab">
+	<input type="radio" name="cp_tab" id="tab2_1" aria-controls="first_tab02" checked>
+  <label for="tab2_1">First Tab</label>
+	<input type="radio" name="cp_tab" id="tab2_2" aria-controls="second_tab02">
+	<label for="tab2_2">Second Tab</label>
+	<input type="radio" name="cp_tab" id="tab2_3" aria-controls="third_tab02">
+	<label for="tab2_3">Third Tab</label>
+	<input type="radio" name="cp_tab" id="tab2_4" aria-controls="force_tab02">
+	<label for="tab2_4">Force Tab</label>
+	<div class="cp_tabpanels">
+		<div class="cp_tabpanel">
+		<h2>First Tab</h2>
+		<p>First Tab text</p>
+		</div>
+		<div class="cp_tabpanel hover-2">
+		<h2>Second Tab</h2>
+		<p>Second Tab text</p>
+		</div>
+		<div class="cp_tabpanel hover-3">
+		<h2>Third Tab</h2>
+		<p>Third Tab text</p>
+		</div>
+		<div class="cp_tabpanel hoer-4">
+		<h2>Force Tab</h2>
+		<p>Force Tab text</p>
+		</div>
+	</div>
+</div>
+
+
+<div class="">グレード別価格</div>
+<div>
+  
+</div>
+
+
+
 <script src="path/to/swiper.min.js"></script>
 <script>
   var mySwiper = new Swiper ('.swiper-container', {
