@@ -1,8 +1,16 @@
 body{
   line-height: 1.5;
+  font-family: YuGothic,'Yu Gothic','DIN Alternate','Osaka',sans-serif;
 }
 .wrap{
   overflow: hidden;
+}
+a{
+  text-decoration: none!important;
+  color: #2E3536;
+}
+a:visited{
+  color:#2E3536;
 }
 /*ここからヘッダー*/
 header{
@@ -15,10 +23,15 @@ header{
   justify-content: flex-end;
   z-index: 200;
 }
-.toyotalogo{
+.toyotalogo>img{
   height:50px;
   width: auto;
   margin-right:auto; 
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.toyotalogo{
+    margin-right:auto; 
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -30,6 +43,20 @@ header{
 .hd-menu{
   font-size:17px;
   margin:auto 25px; 
+  
+}
+.hd-menu,
+.toyotalogo>img,
+.hd-btn,
+.hd-btn2,
+.grd-btn,
+.more,
+.user-btn,
+.grd-more:hover{
+  cursor: pointer;
+}
+.hd-menu>a:hover{
+  color: #46BDCA;
 }
 .hd-btn{
   width: 230px;
@@ -60,6 +87,10 @@ header{
   margin: 100px auto;
 }
 /*幸せ訴求タブ*/
+.tab-box{
+  width: 80%;
+  margin: 0 auto;
+}
 .cp_tab *, .cp_tab *:before, .cp_tab *:after {
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
@@ -112,9 +143,7 @@ header{
 	text-align: center;
     background-color: #D1D1D1;
 }
-.cp_tab > input + label:last-of-type {
-	margin-bottom: 0;
-}
+
 .cp_tab > label:hover,
 .cp_tab > input:focus + label {
 	color: #fff
@@ -129,7 +158,7 @@ header{
 	min-height: 320px;
 }
 .cp_tab > input + label:last-of-type {
-	margin-bottom: 400px;
+	margin-bottom: 200px;
 }
 /*幸せ訴求イメージスタイル*/
 .tab-img{
@@ -162,6 +191,7 @@ label[for="tab2_4"]:hover{
   width: 500px;
   font-size: 30px;
   margin:100px auto 0 auto;
+  font-weight: bold;
 }
 .topic-comment2{
 
@@ -169,6 +199,7 @@ label[for="tab2_4"]:hover{
   width: 500px;
   font-size: 30px;
   margin:100px auto 32px auto;
+  font-weight: bold;
 
 }
 
@@ -364,7 +395,7 @@ label[for="tab2_4"]:hover{
 }
 /*試乗ボタン*/
 .hd-btn2{
-  width: 100%;
+  width:230px;
   color: #fff;
   font-size: 17px;
   background-color: #46BDCA;
@@ -499,15 +530,25 @@ width: 250px;
   width: 500px;
   margin:20px auto 60px;
 }
+.grd-container{
+margin: 120px 0;
+}
 /*グレード別価格ここまで*/
 
-
+.user-btn-box{
+  display: flex;
+  justify-content: flex-end;
+  width: 68%;
+  margin: 0 auto 20px;
+}
 .user-btn{
-  margin-right: 50%;
+ background-color: #d1d1d1;
+  height: 30px;
+  width:150px;
 }
 .comment-box{
  width: 570px;
- border: solid 1px black;
+ border: solid 1px #707070;
  border-radius: 15px;
  margin-left: 350px;
  margin-bottom: 30px;
@@ -518,11 +559,66 @@ width: 250px;
 
 }
 .parsonal-text{
-  margin: 25px;
+  margin: 44px;
   margin-left: 40px;
+  letter-spacing: 0.1em;
+  line-height: 1.5;
 }
 .txt-car-class{
   font-size: 20px;
   margin-right: 15px;
 }
-
+/*オーナーの声ここまで*/
+.btm-img{
+  width: 100%;
+  height: auto;
+  margin: 150px 0 0;
+}
+/*試乗のポイントここから*/
+.sijou-container{
+  width: 45%;
+  margin: 50px 0 50px 30%;
+  position: relative;
+}
+.sijou-box{
+  height: 167px;
+  margin: 62px 0;
+}
+.sijou-box>p{
+  margin: 20px 0;
+  line-height: 2em;
+  
+}
+.tpc-num{
+  position: absolute;
+  left: -80px;
+}
+.sijou-txt{
+  margin-top: 10px;
+  font-size: 20px;
+}
+.tpc-num{
+  height: 50px;
+  width:auto;
+}
+/*試乗のポイントここまで*/
+/*試乗の流れここから*/
+.sijou-flow{
+  width: 55%;
+  margin: 100px auto;
+  
+}
+.flow-img{
+  width: 100%;
+  height: auto;
+}
+/*試乗の流れここまで*/
+/*フッターここから*/
+.footer{
+  margin-top: 50px;
+  width: 100%;
+}
+.footer>img{
+  height: auto;
+  width: 100%;
+}
